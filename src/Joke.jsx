@@ -6,9 +6,9 @@ export default function Joke() {
   let [type, setType] = useState("random");
   const getUrl = () => {
     if (type === "random") {
-      return "";
+      return "https://official-joke-api.appspot.com/random_joke";
     } else {
-      return `https://ofhttps://official-joke-api.appspot.com/random_jokeficial-joke-api.appspot.com/jokes/${type}/random`;
+      return `https://official-joke-api.appspot.com/jokes/${type}/random`;
     }
   };
 
