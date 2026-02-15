@@ -2,20 +2,21 @@
   color: red;
   text-align: center;
   font-size: 2rem;
+  width: fit-content;
   padding: 0.3rem;
   border-radius: 5px;
-  box-shadow: 1px 10px 15px rgb(255, 0, 0);
+  box-shadow: 1px 5px 15px rgb(255, 0, 0);
 }
 
 .card {
   background-color: white;
-  padding: 20px;
+  padding: 10px 15px 30px 15px;
   border-radius: 15px;
-  width: 350px;
+  width: 300px;
   height: 200px;
   margin: 0 auto 20px;
   text-align: center;
-  box-shadow: 1px 4px 25px rgb(255, 68, 0);
+  box-shadow: 1px 4px 20px rgb(255, 68, 0);
 }
 
 .card h3 {
@@ -30,20 +31,22 @@
 }
 
 button {
+  display: block;
+  margin: 0 auto;
   border-radius: 10px;
   border: 3px solid red;
   padding: 0.3em 0.7em;
   font-size: 1.2rem;
   font-weight: 700;
   font-family: inherit;
-  background-color: orangered;
-
+  background-color: rgb(255, 82, 19);
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border: 3px solid red;
-  background-color: #ff670f;
+  background-color: #ff5e00;
   color: black;
 }
 
@@ -79,9 +82,7 @@ option {
   }
 
   .card {
-    padding: 10px 7px;
-    width: 350px;
-    height: 200px;
+    padding: 5px 2px 8px 2px;
     margin: 0 auto 20px;
   }
 
