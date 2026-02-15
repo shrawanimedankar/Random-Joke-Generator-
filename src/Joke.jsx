@@ -28,7 +28,7 @@ export default function Joke() {
   }, [type]);
 
   return (
-    <div>
+    <div className="card-container">
       <h2 className="heading">
         <i className="fa-regular fa-face-laugh-beam"></i> Random Joke Generator
       </h2>
