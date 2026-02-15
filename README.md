@@ -4,7 +4,7 @@ A simple React application that fetches and displays random jokes using a public
 
 ## 🌐 Live Demo:
 
-https://weatherapp-vw8v.onrender.com
+https://random-joke-generator-vlnc.onrender.com/
 
 ---
 
