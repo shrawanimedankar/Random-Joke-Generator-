@@ -1,0 +1,102 @@
+.heading {
+  color: red;
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  box-shadow: 1px 10px 15px rgb(255, 0, 0);
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 350px;
+  height: 200px;
+  margin: 0 auto 20px;
+  text-align: center;
+  box-shadow: 1px 4px 25px rgb(255, 68, 0);
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: #444;
+  font-weight: 600;
+}
+
+button {
+  border-radius: 10px;
+  border: 3px solid red;
+  padding: 0.3em 0.7em;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: inherit;
+  background-color: orangered;
+
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border: 3px solid red;
+  background-color: #ff670f;
+  color: black;
+}
+
+select {
+  display: block;
+  margin: 0 auto 20px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  cursor: pointer;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+select:focus {
+  border-color: #ffffff;
+}
+
+option {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+  .heading {
+    font-size: 1.3rem;
+  }
+
+  .card {
+    padding: 10px 7px;
+    width: 350px;
+    height: 200px;
+    margin: 0 auto 20px;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+
+  .card p {
+    font-size: 1rem;
+    color: #444;
+    font-weight: 600;
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}
